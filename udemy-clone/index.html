@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Clone</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="nav-bar">
+
+            <div class="nav-bar__s1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Udemy_logo.svg" class="nav-bar__s1-logo">
+            </div>
+
+            <div class="nav-bar__s2">
+                <form class="nav-bar__s2-form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Search for anything here...">
+                </form>
+            </div>
+
+            <div class="nav-bar__s3">
+                <p>Courses</p>
+
+                <div class="my-learning">
+                    <p>My Learning</p>
+                    <div class="my-learning-popup">
+                        <p>You did not purchase anything yet</p>
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+        </nav>
+
+        <!-- Categories -->
+        <section class="categories">
+            <ul class="categories_list">
+                <li class="categories__item">Development</li>
+                <li class="categories__item">Business</li>
+                <li class="categories__item">IT & Software</li>
+                <li class="categories__item">Design</li>
+                <li class="categories__item">Marketing</li>
+            </ul>
+        </section>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <img src="image/style-sheet.jpg" class="hero-section__image">
+
+        <div class="hero-section__content">
+            <h1>24-Hour Skill Boost Sale</h1>
+            <p>Learn from industry experts starting at ₹449</p>
+            <button class="hero-section__content-button">
+                Start Learning
+            </button>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section class="courses">
+        <div class="courses__header">
+            <h2>Recommended for you</h2>
+            <p>Pick the best fit</p>
+        </div>
+
+        <div class="courses__list">
+
+            <article class="courses__item">
+                <img src="image/r1.jpg" class="courses__img">
+                <h3>Python Data Science Bootcamp</h3>
+                <p>Jose Portilla</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>₹599 <del>1999</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" class="courses__img">
+                <h3>Full Stack Web Development</h3>
+                <p>Colt Steele</p>
+                <p>4.7 ⭐⭐⭐⭐</p>
+                <p>₹699 <del>3999</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="image/r3.jpg" class="courses__img">
+                <h3>React Complete Guide</h3>
+                <p>Maximilian</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>₹899 <del>2999</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64" class="courses__img">
+                <h3>UI/UX Design Masterclass</h3>
+                <p>Daniel Scott</p>
+                <p>4.9 ⭐⭐⭐⭐</p>
+                <p>₹799 <del>2499</del></p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- TOPICS -->
+    <section class="topics">
+        <h2 class="topics__title">Topics Recommended for You</h2>
+
+        <ul class="topics_list">
+            <li class="topics__button">Full Stack Development</li>
+            <li class="topics__button">JavaScript Mastery</li>
+            <li class="topics__button">UI/UX Design</li>
+            <li class="topics__button">Cloud Computing</li>
+            <li class="topics__button">DevOps & Docker</li>
+            <li class="topics__button">AI Tools</li>
+        </ul>
+    </section>
+    <!-- MOST POPULAR SECTION -->
+    <section class="courses">
+        <div class="courses__header">
+            <h2>Most Popular</h2>
+            <p>Pick the best fit</p>
+        </div>
+
+        <div class="courses__list">
+
+            <article class="courses__item">
+                <img src="image/r1.jpg" class="courses__img">
+                <h3>Python Data Science & Visualization Bootcamp (2026)</h3>
+                <p>Jose Portilla</p>
+                <p>4.9 ⭐⭐⭐⭐</p>
+                <p>₹499 <del>1999</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="courses__img">
+                <h3>The Ultimate Full Stack Web Developer Bootcamp 2026</h3>
+                <p>Colt Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>₹699 <del>3999</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64" class="courses__img">
+                <h3>UI/UX Design Masterclass: Figma + Portfolio Projects</h3>
+                <p>Daniel Scott</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>₹1499 <del>11999</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="image/m2.jpg" class="courses__img">
+                <h3>Java Programming Masterclass: Core to Advanced (2026)</h3>
+                <p>Tim Buchalka</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>₹799 <del>1750</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" class="courses__img">
+                <h3>React.js Complete Guide: Hooks, Redux & Projects</h3>
+                <p>Angela Yu</p>
+                <p>4.7 ⭐⭐⭐⭐</p>
+                <p>₹899 <del>2999</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800" class="courses__img"
+                    alt="Node.js Course">
+                <h3>Node.js + Express: Build REST APIs Like a Pro</h3>
+                <p>Maximilian Schwarzmüller</p>
+                <p>4.6 ⭐⭐⭐⭐</p>
+                <p>₹749 <del>3499</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="image/r14.png" class="courses__img">
+                <h3>MERN Stack Project Workshop: Build Real Apps (2026)</h3>
+                <p>Stephen Grider</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>₹1199 <del>4999</del></p>
+            </article>
+
+            <article class="courses__item">
+                <img src="image/m4.jpg" class="courses__img">
+                <h3>Modern CSS Pro: Flexbox, Grid & Responsive UI</h3>
+                <p>Jonas Schmedtmann</p>
+                <p>4.9 ⭐⭐⭐⭐</p>
+                <p>₹699 <del>2499</del></p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <section class="footer__category">
+            <ul>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Contact</li>
+            </ul>
+            <ul>
+                <li>Blog</li>
+                <li>Help & Support</li>
+                <li>Affiliate</li>
+            </ul>
+        </section>
+
+        <section class="footer__logo">
+            <p>© 2026 Udemy Clone</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
